@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- head section -->
+
+  <head>
+    <!-- meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Webpage title -->
+    <title>Harmony</title>
+
+    <!-- links to CSS file -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    />
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    /> -->
+    <!-- Bootstrap Font Icon CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+      integrity="sha384-EvBWSlnoFgZlXJvpzS+MAUEjvN7+gcCwH+qh7GRFOGgZO0PuwOFro7qPOJnLfe7l"
+      crossorigin="anonymous"
+    />
+    <!-- favicon  -->
+    <link rel="shortcut icon" href="Images/LogoNP.png" type="image/x-icon" />
+  </head>
+
+  <!-- body section -->
+
+  <body>
+    <!-- header -->
+    <header>
+      <!-- navigation bar -->
+      <nav class="nav-bar">
+        <!-- header logo -->
+        <div>
+          <img
+            src="Images/LogoNP.png"
+            alt="Logo Unavailable"
+            class="nav-logo"
+          />
+          <a href="#" class="logo-name">Harmony</a>
+        </div>
+        <!-- search box for songs -->
+        <form>
+          <input type="text" id="search-box" placeholder="Search a Song" />
+        </form>
+
+        <!-- bootstrap icon tag -->
+        <i class="bi bi-person-circle"></i>
+      </nav>
+    </header>
+    <!-- main code  -->
+    <main>
+      <!-- carousel -->
+      <section class="carousel-section">
+        <div class="container">
+          <div class="row">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+              </ul>
+
+              <!-- The slideshow -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="box">
+                      <a href="#"
+                        ><img
+                          src="Images/carousel/1.jpg"
+                          alt="Image Unavailable"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="box">
+                      <a href="#"
+                        ><img
+                          src="Images/carousel/2.jpg"
+                          alt="Image Unavailable"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="box">
+                      <a href="#"
+                        ><img
+                          src="Images/carousel/3.jpg"
+                          alt="Image Unavailable"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Left and right controls -->
+              <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <h4 class="headings">Recently Played</h4>
+      <!-- Recently Played Songs  -->
+      <section class="recently-played">
+        <!-- Flex of recently played items  -->
+        <a href="#" class="no-text-decoration">
+          <div class="recently-played-items">
+            <img
+              src="Images/carousel/4.jpg"
+              alt="Image Unavailable"
+              class="recently-played-items-images"
+            />
+            <h6 class="song-name">Fly</h6>
+            <h6 class="song-details">Marshmello</h6>
+          </div>
+        </a>
+        <a href="#" class="no-text-decoration">
+          <div class="recently-played-items">
+            <img
+              src="Images/carousel/5.jpg"
+              alt="Image Unavailable"
+              class="recently-played-items-images"
+            />
+            <h6 class="song-name">Sparks</h6>
+            <h6 class="song-details">Coldplay</h6>
+          </div>
+        </a>
+        <a href="#" class="no-text-decoration">
+          <div class="recently-played-items">
+            <img
+              src="Images/carousel/6.jpg"
+              alt="Image Unavailable"
+              class="recently-played-items-images"
+            />
+            <h6 class="song-name">This Feeling</h6>
+            <h6 class="song-details">the chainsmokers</h6>
+          </div>
+        </a>
+        <a href="#" class="no-text-decoration">
+          <div class="recently-played-items">
+            <img
+              src="Images/carousel/7.jpg"
+              alt="Image Unavailable"
+              class="recently-played-items-images"
+            />
+            <h6 class="song-name">gorgeous</h6>
+            <h6 class="song-details">taylor swift</h6>
+          </div>
+        </a>
+      </section>
+
+      <h4 class="headings">Best Artists</h4>
+      <!-- Best Artists Section -->
+      <section class="recently-played">
+        <!-- Flex of Best artists items  -->
+        <a href="#" class="no-text-decoration">
+          <div class="artists">
+            <img
+              src="Images/carousel/12.jpg"
+              alt="Image Unavailable"
+              class="artists-images"
+            />
+            <h6 class="song-name">Alan Walker</h6>
+          </div>
+        </a>
+        <a href="#" class="no-text-decoration">
+          <div class="artists">
+            <img
+              src="Images/carousel/13.jpg"
+              alt="Image Unavailable"
+              class="artists-images"
+            />
+            <h6 class="song-name">Taylor swift</h6>
+          </div>
+        </a>
+        <a href="#" class="no-text-decoration">
+          <div class="artists">
+            <img
+              src="Images/carousel/14.jpg"
+              alt="Image Unavailable"
+              class="artists-images"
+            />
+            <h6 class="song-name">Zayn Malik</h6>
+          </div>
+        </a>
+        <a href="#" class="no-text-decoration">
+          <div class="artists">
+            <img
+              src="Images/carousel/15.jpg"
+              alt="Image Unavailable"
+              class="artists-images"
+            />
+            <h6 class="song-name">Coldplay</h6>
+          </div>
+        </a>
+        <a href="#" class="no-text-decoration">
+          <div class="artists">
+            <img
+              src="Images/carousel/16.jpg"
+              alt="Image Unavailable"
+              class="artists-images"
+            />
+            <h6 class="song-name">Imagine Dragons</h6>
+          </div>
+        </a>
+      </section>
+
+      <!-- Genre Section -->
+      <section class="genre">
+        <!-- Flex of Genre items  -->
+        <a href="#" class="no-text-decoration">
+          <div class="genre-items">
+            <img
+              src="Images/carousel/21.jpg"
+              alt="Image Unavailable"
+              class="genre-items-images"
+            />
+            <div class="genre-layer"><h3>Party</h3></div>
+          </div>
+        </a>
+        <a href="#" class="no-text-decoration">
+          <div class="genre-items">
+            <img
+              src="Images/carousel/22.jpg"
+              alt="Image Unavailable"
+              class="genre-items-images"
+            />
+            <div class="genre-layer"><h3>Electronic</h3></div>
+          </div>
+        </a>
+        <a href="#" class="no-text-decoration">
+          <div class="genre-items">
+            <img
+              src="Images/carousel/23.jpg"
+              alt="Image Unavailable"
+              class="genre-items-images"
+            />
+            <div class="genre-layer"><h3>Roadtrip</h3></div>
+          </div>
+        </a>
+      </section>
+
+      <h4 class="headings">Latest English Music</h4>
+      <!-- Latest Music Section -->
+      <section class="recently-played">
+        <!-- Flex of english music items  -->
+        <a href="#" class="no-text-decoration">
+          <div class="recently-played-items">
+            <img
+              src="Images/carousel/8.jpg"
+              alt="Image Unavailable"
+              class="recently-played-items-images"
+            />
+            <h6 class="song-name">i knew you were...</h6>
+            <h6 class="song-details">taylor swift</h6>
+          </div>
+        </a>
+        <a href="#" class="no-text-decoration">
+          <div class="recently-played-items">
+            <img
+              src="Images/carousel/9.jpg"
+              alt="Image Unavailable"
+              class="recently-played-items-images"
+            />
+            <h6 class="song-name">Enemy</h6>
+            <h6 class="song-details">Imagine Dragons</h6>
+          </div>
+        </a>
+        <a href="#" class="no-text-decoration">
+          <div class="recently-played-items">
+            <img
+              src="Images/carousel/10.jpg"
+              alt="Image Unavailable"
+              class="recently-played-items-images"
+            />
+            <h6 class="song-name">dusk till dawn</h6>
+            <h6 class="song-details">zayn malik</h6>
+          </div>
+        </a>
+        <a href="#" class="no-text-decoration">
+          <div class="recently-played-items">
+            <img
+              src="Images/carousel/11.jpg"
+              alt="Image Unavailable"
+              class="recently-played-items-images"
+            />
+            <h6 class="song-name">Faded</h6>
+            <h6 class="song-details">Alan Walker</h6>
+          </div>
+        </a>
+      </section>
+
+      <h4 class="headings">Latest Hindi Music</h4>
+      <!-- Latest Music Section -->
+      <section class="recently-played">
+        <!-- Flex of recently played items  -->
+        <a href="#" class="no-text-decoration">
+          <div class="recently-played-items">
+            <img
+              src="Images/carousel/17.jpg"
+              alt="Image Unavailable"
+              class="recently-played-items-images"
+            />
+            <h6 class="song-name">Mere Bina</h6>
+            <h6 class="song-details">Pritam Chakraborty</h6>
+          </div>
+        </a>
+        <a href="#" class="no-text-decoration">
+          <div class="recently-played-items">
+            <img
+              src="Images/carousel/18.jpg"
+              alt="Image Unavailable"
+              class="recently-played-items-images"
+            />
+            <h6 class="song-name">Tum Mile</h6>
+            <h6 class="song-details">Neeraj Shridhar</h6>
+          </div>
+        </a>
+        <a href="#" class="no-text-decoration">
+          <div class="recently-played-items">
+            <img
+              src="Images/carousel/19.jpg"
+              alt="Image Unavailable"
+              class="recently-played-items-images"
+            />
+            <h6 class="song-name">Char botal vodka</h6>
+            <h6 class="song-details">yo yo honey singh</h6>
+          </div>
+        </a>
+        <a href="#" class="no-text-decoration">
+          <div class="recently-played-items">
+            <img
+              src="Images/carousel/20.jpg"
+              alt="Image Unavailable"
+              class="recently-played-items-images"
+            />
+            <h6 class="song-name">High Heels</h6>
+            <h6 class="song-details">yo yo honey singh</h6>
+          </div>
+        </a>
+      </section>
+    </main>
+
+    <!-- aside section  -->
+    <aside>
+      <h4 class="aside-heading">Next in Queue</h4>
+      <form action="" class="aside-form">
+        <select name="dropdown" id="droplist">
+          <option value="Playlist" class="options">Playlist</option>
+          <option value="Favourites" class="options">Favourites</option>
+        </select>
+      </form>
+      <ul class="aside-section">
+        <a href="#" alt="Unavailable" class="no-text-decoration">
+          <li>
+            <span class="text-for-asidebar">01</span>
+            <img src="Images/carousel/10.jpg" alt="Unavailable" />
+            <h5 class="queue-song-name">
+              Treat You Better
+              <div class="subtitles">Shawn Mendes</div>
+            </h5>
+          </li>
+        </a>
+        <a href="#" alt="Unavailable" class="no-text-decoration">
+          <li>
+            <span class="text-for-asidebar">02</span>
+            <img src="Images/carousel/11.jpg" alt="Unavailable" />
+            <h5 class="queue-song-name">
+              Faded
+              <div class="subtitles">Alan Walker</div>
+            </h5>
+          </li>
+        </a>
+        <a href="#" alt="Unavailable" class="no-text-decoration">
+          <li>
+            <span class="text-for-asidebar">03</span>
+            <img src="Images/carousel/12.jpg" alt="Unavailable" />
+            <h5 class="queue-song-name">
+              Faded
+              <div class="subtitles">Alan Walker</div>
+            </h5>
+          </li>
+        </a>
+        <a href="#" alt="Unavailable" class="no-text-decoration">
+          <li>
+            <span class="text-for-asidebar">04</span>
+            <img src="Images/carousel/13.jpg" alt="Unavailable" />
+            <h5 class="queue-song-name">
+              I knew you were...
+              <div class="subtitles">Taylor Swift</div>
+            </h5>
+          </li>
+        </a>
+        <a href="#" alt="Unavailable" class="no-text-decoration">
+          <li>
+            <span class="text-for-asidebar">05</span>
+            <img src="Images/carousel/14.jpg" alt="Unavailable" />
+            <h5 class="queue-song-name">
+              Story of My life
+              <div class="subtitles">Zayn Malik</div>
+            </h5>
+          </li>
+        </a>
+        <a href="#" alt="Unavailable" class="no-text-decoration">
+          <li>
+            <span class="text-for-asidebar">06</span>
+            <img src="Images/carousel/15.jpg" alt="Unavailable" />
+            <h5 class="queue-song-name">
+              Yellow
+              <div class="subtitles">Coldplay</div>
+            </h5>
+          </li>
+        </a>
+        <a href="#" alt="Unavailable" class="no-text-decoration">
+          <li>
+            <span class="text-for-asidebar">07</span>
+            <img src="Images/carousel/16.jpg" alt="Unavailable" />
+            <h5 class="queue-song-name">
+              Bad liar
+              <div class="subtitles">Imagine Dragons</div>
+            </h5>
+          </li>
+        </a>
+        <a href="#" alt="Unavailable" class="no-text-decoration">
+          <li>
+            <span class="text-for-asidebar">08</span>
+            <img src="Images/carousel/18.jpg" alt="Unavailable" />
+            <h5 class="queue-song-name">
+              Mere Bina
+              <div class="subtitles">Pritam Chakraborty</div>
+            </h5>
+          </li>
+        </a>
+        <a href="#" alt="Unavailable" class="no-text-decoration">
+          <li>
+            <span class="text-for-asidebar">09</span>
+            <img src="Images/carousel/18.jpg" alt="Unavailable" />
+            <h5 class="queue-song-name">
+              Tum Mile
+              <div class="subtitles">Neeraj Shridhar</div>
+            </h5>
+          </li>
+        </a>
+        <a href="#" alt="Unavailable" class="no-text-decoration">
+          <li>
+            <span class="text-for-asidebar">10</span>
+            <img src="Images/carousel/19.jpg" alt="Unavailable" />
+            <h5 class="queue-song-name">
+              Char botal vodka
+              <div class="subtitles">yo yo honey singh</div>
+            </h5>
+          </li>
+        </a>
+      </ul>
+    </aside>
+
+    <footer>
+      <div>
+        <a href="#" alt="Unavailable" class="no-text-decoration">
+          <img
+            src="Images/carousel/1.jpg"
+            alt="Unavailable"
+            class="footer-song-image"
+          />
+          <h5 class="footer-song-name">
+            Treat You Better
+            <div class="footer-subtitles">Shawn Mendes</div>
+          </h5>
+        </a>
+        <i class="bi bi-heart" id="favourites"></i>
+      </div>
+      <div>
+        <i class="bi bi-shuffle"></i>
+        <i class="bi bi-skip-backward-circle-fill"></i>
+        <i class="bi bi-play-circle-fill"></i>
+        <i class="bi bi-skip-forward-circle-fill"></i>
+        <i class="bi bi-shuffle"></i>
+      </div>
+      <div></div>
+    </footer>
+
+    <!-- CDN Files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+      integrity="sha256-jDnOIOq2KNsQZTcBTEnsp76FnfMEttF6AV2DF2fFNE="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"
+      integrity="sha256-JtQPj/3xub8oapVMaIijPNoM0DHoAtgh/gwFYuN5rik="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

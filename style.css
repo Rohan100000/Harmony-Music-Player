@@ -1,0 +1,436 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&family=Luxurious+Roman&family=Neonderthaw&family=Poppins&family=Sarabun&family=Ubuntu&family=Yellowtail&display=swap");
+
+/* -------------------------------------header navigation bar properties------------------------------------ */
+
+body {
+  background: linear-gradient(90deg, #100a2f, rgb(21, 31, 119) 100%);
+}
+
+header {
+  height: 10vh;
+  width: 100vw;
+}
+
+.nav-bar {
+  display: flex;
+  margin: 0;
+  width: 100vw;
+}
+
+.nav-logo {
+  height: 110px;
+  width: 110px;
+  margin-top: 0.5vh;
+  margin-left: 1.5vw;
+}
+
+.logo-name {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+  font-family: Great Vibes;
+  position: absolute;
+  top: 6vh;
+  left: 1.5vw;
+}
+
+#search-box {
+  margin-left: 50vw;
+  width: 20vw;
+  height: 5vh;
+  margin-top: 6vh;
+  background-color: #1a1b4b;
+  border-radius: 10px;
+  color: whitesmoke;
+  overflow: hidden;
+}
+
+.bi {
+  color: whitesmoke;
+  font-size: 40px;
+  cursor: pointer;
+  position: relative;
+  left: 5vw;
+  top: 4vh;
+}
+
+/*------------------------------------------------carousel---------------------------------------------------*/
+
+.carousel-section {
+  /* width: 100%; */
+  height: 60vh;
+  padding: 60px 0;
+  margin-bottom: 20% !important;
+  /* width: 70%;
+  display: inline-block; */
+}
+
+.carousel {
+  height: 50vh;
+  width: 40vw;
+  margin-top: 10vh;
+  margin-left: 15vw;
+  /* overflow: hidden; */
+}
+
+.carousel-inner {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 5px;
+}
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: -70px !important;
+}
+.box {
+  text-align: center;
+  transition: 0.3s ease;
+  height: 100%;
+  width: 100%;
+}
+.box a {
+  position: relative;
+}
+.box a img {
+  width: 100%;
+  height: 100%;
+  border: 50%;
+  margin-top: 20px;
+}
+.box a::after {
+  content: "";
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  top: 120%;
+  left: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel-control-prev-icon {
+  position: relative;
+  top: 2.5vh;
+}
+
+.carousel-control-next-icon {
+  position: relative;
+  top: 2.5vh;
+}
+
+/*-----------------------------------------------Main section--------------------------------------------------*/
+
+main {
+  width: 70%;
+  display: inline-block !important;
+}
+
+/*------------------------------------------------Recently Played-----------------------------------------------*/
+
+.headings {
+  color: whitesmoke;
+  font-family: Sarabun;
+  margin-top: 10vh;
+  margin-left: 10vw;
+  margin-bottom: 5vh;
+  text-transform: capitalize;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.song-name {
+  color: whitesmoke;
+  font-family: Sarabun;
+  text-transform: capitalize;
+  font-weight: bold;
+  position: relative;
+  top: 3.5vh;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+
+.song-details {
+  color: rgb(104, 104, 104);
+  font-family: Sarabun;
+  text-transform: capitalize;
+  font-weight: bold;
+  position: relative;
+  top: 3vh;
+  text-align: center;
+  font-size: 0.9rem;
+  overflow-wrap: break-word;
+}
+
+.recently-played {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: -5vh;
+  margin-left: 10vw;
+  margin-bottom: 5vh;
+  height: 40vh;
+  width: 50vw;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.recently-played-items {
+  background: linear-gradient(#ab54b6c0, rgba(12, 2, 151, 0.712) 100%);
+  height: 32.5vh;
+  width: 10vw;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.recently-played-items-images {
+  height: 20vh;
+  width: 8vw;
+  border-radius: 5px;
+  position: relative;
+  top: 2.5vh;
+  left: 1vw;
+  overflow: hidden;
+}
+
+.no-text-decoration {
+  text-decoration: none;
+  color: whitesmoke;
+}
+.no-text-decoration:hover {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.recently-played-items-images:hover {
+  top: 0;
+  left: 0;
+  height: 25vh;
+  width: 10vw;
+  margin-bottom: -3vh;
+  transition: all 1s;
+}
+
+.song-name:hover {
+  color: rgba(201, 120, 201, 0.829);
+  transition: 0.5s ease-in-out;
+}
+
+/*--------------------------------------Artists----------------------------------------*/
+
+.artists {
+  /* background: linear-gradient(#ab54b6c0, rgba(12, 2, 151, 0.712) 100%); */
+  height: 32.5vh;
+  width: 10vw;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.artists-images {
+  height: 20vh;
+  width: 8vw;
+  border-radius: 50%;
+  position: relative;
+  top: 2.5vh;
+  left: 1vw;
+  overflow: hidden;
+}
+
+.artists :hover {
+  box-shadow: 0px 0px 5px 5px #ab54b6c0;
+}
+
+/*--------------------------------------Genre-------------------------------------------*/
+
+.genre {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: -5vh;
+  margin-left: 10vw;
+  margin-bottom: 5vh;
+  height: 25vh;
+  width: 55vw;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: rgba(4, 4, 138, 0.356);
+}
+
+.genre-items {
+  height: 22.5vh;
+  width: 17.5vw;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+
+.genre-items img {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.genre-layer {
+  position: absolute;
+  background: transparent;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transition: all 0.5s;
+}
+
+.genre-layer h3 {
+  width: 100%;
+  font-weight: 500;
+  color: whitesmoke;
+  font-size: 26px;
+  bottom: 0;
+  opacity: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  transition: all 0.5s;
+  z-index: 1;
+}
+
+.genre-layer:hover h3 {
+  bottom: 40%;
+  opacity: 1;
+}
+
+/*----------------------------------------------aside-----------------------------------------------*/
+
+aside {
+  display: inline-block !important;
+  width: 28%;
+  height: 100%;
+  vertical-align: top;
+  color: white;
+  margin-top: 20vh;
+}
+
+.aside-section {
+  display: flex;
+  flex-direction: column;
+  color: rgb(104, 104, 104);
+  list-style: none;
+  position: relative;
+  right: 30px;
+  width: 100%;
+}
+
+aside h4 {
+  color: whitesmoke;
+  font-family: Sarabun;
+  text-transform: capitalize;
+  font-weight: bold;
+  margin-bottom: 50px;
+  display: inline-block;
+}
+
+.aside-section li {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+.aside-section li img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.text-for-asidebar {
+  color: rgb(104, 104, 104);
+  margin-right: 5px;
+  font-weight: bold;
+}
+.queue-song-name {
+  font-size: 14px;
+  margin-left: 15px;
+  display: inline-block;
+  margin-top: 5px;
+  position: relative;
+  width: 100%;
+}
+.queue-song-name .subtitles {
+  font-size: 11px;
+  color: #898b92;
+}
+.queue-song-name .bi {
+  font-size: 23px;
+  position: absolute;
+  bottom: 30px;
+  right: 50px;
+  display: inline;
+}
+
+.aside-heading {
+  display: inline-block;
+}
+.aside-form {
+  display: inline-block;
+}
+#droplist {
+  display: inline-block;
+  margin-left: 100%;
+  background: transparent;
+  color: whitesmoke;
+  text-align: center;
+  border: none;
+}
+.options {
+  background: transparent;
+  color: rgb(95, 90, 90);
+  text-align: center;
+  border: none;
+}
+
+/*---------------------------------------Playbar section----------------------------------*/
+
+footer {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  color: whitesmoke;
+  background: linear-gradient(to bottom, rgb(21, 31, 119), #100a2f 100%);
+  font-size: large;
+  justify-content: center;
+}
+footer div {
+  display: flex;
+}
+
+.footer-song-image {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: inline-block !important;
+  margin-top: 2.5%;
+  margin-left: 10vw;
+}
+
+.footer-song-name {
+  font-size: 14px;
+  display: inline-block;
+  margin-left: 10px;
+  position: relative;
+  top: 15%;
+}
+
+.footer-subtitles {
+  font-size: 11px;
+  color: #898b92;
+}
+
+#favourites {
+  font-size: 100%;
+  position: relative;
+  top: 15px;
+  left: 15px;
+}
